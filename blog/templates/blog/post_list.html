@@ -3,6 +3,7 @@
 {% block content %}
     {% for post in posts %}
         <div class="post">
+            <div class="author">{{ post.author }} says: </div>
             <div class="date">
                 {{ post.published_date }}
             </div>
