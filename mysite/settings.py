@@ -122,3 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+#Redirection vers la page principale en cas d'identification valide
+
+LOGIN_REDIRECT_URL = '/'
